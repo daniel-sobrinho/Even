@@ -75,3 +75,38 @@ footer div{
 footer i{
     font-size: 30px;
 }
+
+
+
+.titulo{
+    text-align: center;
+}
+
+.desc{
+    text-align: justify;
+    width: 997px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.rounded{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.previews{
+    width: 997px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 425px;
+}
