@@ -10,13 +10,41 @@
    
     <title>Contato e Endereço</title>
   </head>
-  <body>
-    <div class="container">
+  <style>
+      .corpo{
+          background-image: url("img/contato.jpg");
+          
+      }
+      .col{
+          text-align: center;
+      }
+      
+      blockquote{
+          color: ivory;
+          
+      }
+      footer{
+        background-color: rgb(41, 39, 39); 
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+
+      }
+          
+      
+      
+  </style>
+  <body class="corpo">
+    
+    <div class="container" style="margin-top: 100px;">
+
         <form>
             <blockquote class="blockquote text-center">
                 
                 <h3 style="font-family: Code;">ENTRE EM CONTATO</h3>
                 <p>Estamos ansiosos para conversar com você!</p>
+                
+                
             </blockquote>
             <div class="form-row">
                 
@@ -43,11 +71,32 @@
             </div>
             <br>
             <div class="d-flex justify-content-end" >
-                <button type="submit" class="btn btn-primary" >Enviar</button>
+                <button type="submit" class="btn btn-primary" >ENVIAR MENSAGEM</button>
             </div>
             
           </form>
     </div>
+    <footer >
+
+        <div class="container">
+
+            <div class="form-row" style="color: ivory;  margin-top: 100px;">
+                <div class="col">
+                    <img class="icone"src="img/pin-de-localizacao.png" alt="pin" style="height: 25px; width: 25px;">
+                    <p>Rua madalena Nunes, 1604</p>
+                </div>
+                <div class="col">
+                    <img class="icone" src="img/o-email.png" alt="email" style="height: 25px; width: 25px;">
+                    <p>Even@eventos.com.br</p>
+                </div>
+                <div class="col">
+                    <img class="icone" src="img/chamada-telefonica.png" alt="email" style="height: 25px; width: 25px;">
+                    <p>(88) 99999-9999</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
     
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
