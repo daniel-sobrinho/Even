@@ -1,0 +1,77 @@
+.organizacao-eventos{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.organizacao-eventos h5{
+    margin-top: 20px;
+}
+
+.organizacao-eventos hr{
+    width: 75%;
+    height: 2px;
+    border: none;
+}
+
+.organizacao-eventos .icon{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 50%;
+    border-color: rgb(165, 165, 165);
+}
+
+.organizacao-eventos .icon i{
+    margin-top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+}
+
+.background-red{
+    background-color: rgb(243, 60, 60);
+}
+
+.background-green{
+    background-color: rgb(101, 230, 101);
+}
+
+.background-blue{
+    background-color: rgb(64, 124, 255);
+}
+
+.background-gold{
+    background-color: rgb(255, 228, 75);
+}
+
+.border-red:hover{
+    border-color: rgb(243, 60, 60);
+}
+
+.border-green:hover{
+    border-color: rgb(101, 230, 101);
+}
+
+.border-blue:hover{
+    border-color: rgb(64, 124, 255);
+}
+
+.border-gold:hover{
+    border-color: rgb(255, 228, 75);
+}
+
+footer{
+    text-align: center;
+}
+
+footer div{
+    width: 25%;
+}
+
+footer i{
+    font-size: 30px;
+}
