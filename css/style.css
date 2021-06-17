@@ -6,6 +6,10 @@
     color: white;
 }
 
+.navbar-nav{
+    font-size: 20px;
+}
+
 .carousel .item{
     position: fixed;
     top: 0;
@@ -129,9 +133,8 @@ footer div{
 }
 
 footer i{
-    font-size: 30px;
+    font-size: 45px;
 }
-
 
 
 .titulo{

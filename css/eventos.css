@@ -1,11 +1,26 @@
-.media img{
+.categoria-evento hr{
+    margin-left: 0;
+    width: 50%;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #212529;
+}
+
+.container-img{
     width: 300px;
+    height: 200px;
     overflow: hidden;
+    border-radius: 5px;
+}
+
+.container-img img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     transition: all 0.3s;
 }
 
-.media img:hover{
+.container-img img:hover{
     transform: scale(1.1);
 }
-
-
