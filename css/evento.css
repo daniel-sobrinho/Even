@@ -1,20 +1,11 @@
-.main-img{
-    width: 100%;
+body{
+    scroll-behavior: smooth;
 }
 
-.media{
-    display: block;
+.evento img{
+    max-width: 100%;
 }
 
-.media img{
-    width: 100%;
-    height: 100%;
-}
-
-hr{
-    background-color: black;
-    height: 3px;
-    border-style: none;
-    margin-left: 0;
-    width: 45%;
+.evento #fotos .col:hover{
+    cursor: pointer;
 }

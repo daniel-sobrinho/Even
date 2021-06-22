@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS Próprio-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/evento.css">
+
+    <!-- Icones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- Favi Icon da Aba -->
+    <link rel="shortcut icon" href="../img/even-icon.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+    <title>Even Eventos</title>
+</head>
+
+<body>
+    <!-- Navbar Colocar em todos -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white shadow-sm d-flex w-100 py-3">
+        <a class="navbar-brand ml-3" href="./">
+            <img src="../img/navbar/even-logo.png" width="140px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbar"
+            aria-controls="conteudoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end mr-3" id="conteudoNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./eventos.html">Portifólio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./equipe.html">Nossa Equipe</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Evento -->
+    <main class="container mt-5 evento">
+        <h1>The Developer's Conference</h1>
+        <hr>
+        <img src="../media/tdc_recife/img/01.jpg" alt="" class="mb-3">
+        <section>
+            <p>TDC é o maior evento relacionado a desenvolvimento de software no Brasil conectando organizadores de
+                meetups e eventos, palestrantes, empresas e patrocinadores em uma plataforma única, empoderando o
+                ecossistema local de cada região onde é realizado.</p>
+            <p>TDC é uma conferência muito dinâmica com objetivo de apresentar os tópicos mais importantes de acordo com
+                as necessidades locais e internacionais e, por esta razão, existem mais do que dez trilhas paralelas por
+                dia.</p>
+            <p>Cada trilha é como um evento independente de um dia inteiro e organizado por especialistas no assunto que
+                são responsáveis por selecionar sete ou mais palestrantes via plataforma de Call4Papers.</p>
+        </section>
+        <section id="fotos">
+            <h3>Fotos do Evento</h3>
+            <div>
+                <div class="row my-4">
+                    <div class="col" onclick="ativaModal(0)">
+                        <img src="../media/tdc_recife/img/01.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col" onclick="ativaModal(1)">
+                        <img src="../media/tdc_recife/img/02.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col" onclick="ativaModal(2)">
+                        <img src="../media/tdc_recife/img/03.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col" onclick="ativaModal(3)">
+                        <img src="../media/tdc_recife/img/04.jpg" class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col" onclick="ativaModal(4)">
+                        <img src="../media/tdc_recife/img/05.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col" onclick="ativaModal(5)">
+                        <img src="../media/tdc_recife/img/06.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col" onclick="ativaModal(6)">
+                        <img src="../media/tdc_recife/img/07.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col" onclick="ativaModal(7)">
+                        <img src="../media/tdc_recife/img/08.jpg" class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col" onclick="ativaModal(8)">
+                        <img src="../media/tdc_recife/img/09.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col" onclick="ativaModal(9)">
+                        <img src="../media/tdc_recife/img/10.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col">
+                        <!-- Apenas para preencher o espaço -->
+                    </div>
+                    <div class="col">
+                        <!-- Apenas para preencher o espaço -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal das Fotos -->
+            <div class="modal fade">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Galeria de Fotos</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div id="carousel-control" class="carousel slide" data-interval="false">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/01.jpg"
+                                            alt="Primeiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/02.jpg"
+                                            alt="Segundo Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/03.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/04.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/05.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/06.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/07.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/08.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/09.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../media/tdc_recife/img/10.jpg"
+                                            alt="Terceiro Slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carousel-control" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Anterior</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carousel-control" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Próximo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            vídeos
+        </section>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark p-5 d-flex justify-content-around">
+        <div>
+            <i class="fas fa-map-marker-alt text-danger"></i>
+            <p class="text-white">Avenida Prefeito Jaques Nunes, S/N, Centro, Tianguá - CE | CEP: 62.320-000</p>
+        </div>
+        <div>
+            <i class="fas fa-envelope text-success"></i>
+            <p class="text-white">contato@even.com.br</p>
+        </div>
+        <div>
+            <i class="fas fa-phone-square-alt text-primary"></i>
+            <p class="text-white">(88) 3671-0000</p>
+        </div>
+        <div>
+            <i class="fab fa-whatsapp text-success"></i>
+            <p class="text-white">(88) 9 9999-9999</p>
+        </div>
+    </footer>
+
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+
+    <!-- Javascript -->
+    <script>
+        function ativaModal(value) {
+            $('.carousel').carousel(value)
+            $('.modal').modal('show')
+        }
+    </script>
+</body>
+
+</html>

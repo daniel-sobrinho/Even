@@ -40,42 +40,41 @@
 }
 
 .organizacao-eventos{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 250px;
 }
 
-.organizacao-eventos img{
-    width: 100%;
-    border-radius: 50%;
-}
+.organizacao-eventos i{
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
 
-.organizacao-eventos h5{
-    margin-top: 20px;
-}
-
-.organizacao-eventos hr{
-    width: 75%;
-    height: 2px;
-    border: none;
-}
-
-.organizacao-eventos .icon{
-    display: inline-block;
     width: 200px;
     height: 200px;
+
+    transition: all 0.2s;
+
     border-style: solid;
     border-width: 15px;
     border-radius: 50%;
     border-color: rgb(165, 165, 165);
 }
 
-.organizacao-eventos .icon i{
-    margin-top: 50%;
-    transform: translateY(-50%);
-    font-size: 100px;
+.organizacao-eventos i:hover{
+    transform: scale(1.05);
+}
+
+.organizacao-eventos h5{
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.organizacao-eventos hr{
+    width: 100%;
+    height: 2px;
+    border: none;
 }
 
 .background-red{
@@ -128,10 +127,6 @@ footer{
     text-align: center;
 }
 
-footer div{
-    width: 25%;
-}
-
 footer i{
     font-size: 45px;
 }
@@ -141,14 +136,14 @@ footer i{
     text-align: center;
 }
 
-.desc{
+/* .desc{
     text-align: justify;
     width: 997px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
-}
+} */
 
 .rounded{
     display: block;
@@ -156,7 +151,8 @@ footer i{
     margin-right: auto;
 }
 
-.previews{
+
+/* .previews{
     width: 997px;
     display: block;
     margin-left: auto;
@@ -168,4 +164,8 @@ footer i{
     margin-left: auto;
     margin-right: auto;
     width: 425px;
+} */
+
+#contact div{
+    width: 150px;
 }
