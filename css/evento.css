@@ -1,11 +1,31 @@
-body{
-    scroll-behavior: smooth;
+hr {
+    width: 50%;
+    margin-left: 0;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #212529;
 }
 
-.evento img{
-    max-width: 100%;
+.evento img {
+    width: 100%;
 }
 
-.evento #fotos .col:hover{
+.evento #fotos .col:hover {
     cursor: pointer;
+}
+
+#fotos hr {
+    width: 25%;
+}
+
+#fotos img:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    hr,
+    #fotos hr {
+        width: 100%;
+    }
 }

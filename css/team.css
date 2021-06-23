@@ -1,0 +1,22 @@
+.organizacao-eventos img {
+    width: 200px;
+    height: 200px;
+
+    transition: ease-in-out 0.2s;
+
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 50%;
+    border-color: rgb(165, 165, 165);
+}
+
+.organizacao-eventos img:hover {
+    transform: scale(1.05);
+}
+
+hr {
+    width: 50%;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #212529;
+}

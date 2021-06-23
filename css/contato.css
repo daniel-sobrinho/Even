@@ -1,14 +1,15 @@
-body{
+body {
     background-image: url(../img/contact/body-background.jpg);
+    background-size: cover;
 }
 
-#form{
+#form {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     color: white;
 }
 
-#form > div > textarea{
+#form>div>textarea {
     height: 200px;
     resize: none;
 }

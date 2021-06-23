@@ -1,4 +1,4 @@
-#titulo-fixo{
+#titulo-fixo {
     text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
@@ -6,11 +6,12 @@
     color: white;
 }
 
-.navbar-nav{
+.navbar-nav {
     font-size: 20px;
 }
 
-.carousel .item{
+
+.carousel .item {
     position: fixed;
     top: 0;
     width: 100%;
@@ -18,32 +19,35 @@
     z-index: -9999;
 }
 
-.carousel .one{
+.carousel .one {
     background-image: url(../img/home/img1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    filter: grayscale(1);
 }
 
-.carousel .two{
+.carousel .two {
     background-image: url(../img/home/img2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    filter: grayscale(1);
 }
 
-.carousel .three{
+.carousel .three {
     background-image: url(../img/home/img3.jpg);
     background-size: cover;
-    background-attachment: fixed;    
+    background-attachment: fixed;
     background-position: center;
+    filter: grayscale(1);
 }
 
-.organizacao-eventos{
-    width: 250px;
+.organizacao-eventos {
+    width: 350px;
 }
 
-.organizacao-eventos i{
+.organizacao-eventos i {
     display: flex;
     font-size: 100px;
     justify-content: center;
@@ -52,7 +56,7 @@
     width: 200px;
     height: 200px;
 
-    transition: all 0.2s;
+    transition: ease-in-out 0.2s;
 
     border-style: solid;
     border-width: 15px;
@@ -60,112 +64,100 @@
     border-color: rgb(165, 165, 165);
 }
 
-.organizacao-eventos i:hover{
+.organizacao-eventos i:hover {
     transform: scale(1.05);
 }
 
-.organizacao-eventos h5{
+.organizacao-eventos h5 {
     font-size: 20px;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
-.organizacao-eventos hr{
+
+.organizacao-eventos hr {
     width: 100%;
     height: 2px;
     border: none;
 }
 
-.background-red{
+.background-red {
     background-color: rgb(243, 60, 60);
 }
 
-.background-green{
+.background-green {
     background-color: rgb(101, 230, 101);
 }
 
-.background-blue{
+.background-blue {
     background-color: rgb(64, 124, 255);
 }
 
-.background-gold{
+.background-gold {
     background-color: rgb(255, 228, 75);
 }
 
-.border-red:hover{
+.border-red:hover {
     border-color: rgb(243, 60, 60);
 }
 
-.border-green:hover{
+.border-green:hover {
     border-color: rgb(101, 230, 101);
 }
 
-.border-blue:hover{
+.border-blue:hover {
     border-color: rgb(64, 124, 255);
 }
 
-.border-gold:hover{
+.border-gold:hover {
     border-color: rgb(255, 228, 75);
 }
 
-#conheca-even{
+#conheca-even {
     display: block;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: rgba(101, 230, 101, 0.4);
 }
 
-#conheca-even span{
+#conheca-even span {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-footer i{
+footer i {
     font-size: 45px;
 }
 
 
-.titulo{
+.titulo {
     text-align: center;
 }
 
-/* .desc{
-    text-align: justify;
-    width: 997px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-} */
-
-.rounded{
+.rounded {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-/* .previews{
-    width: 997px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.vid{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 425px;
-} */
-
-#contact div{
+#contact div {
     width: 150px;
+}
+
+@media (max-width: 1400px) {
+    .organizacao-eventos {
+        width: 250px;
+    }
+
+    .organizacao-eventos i {
+        font-size: 100px;
+        width: 200px;
+        height: 200px;
+    }
 }
