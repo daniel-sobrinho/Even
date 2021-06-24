@@ -1,5 +1,5 @@
-body {
-    background-image: url(../img/contact/body-background.jpg);
+#formulario {
+    background-image: url(../img/contact/background.jpg);
     background-size: cover;
 }
 
@@ -7,9 +7,22 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     color: white;
+
 }
 
 #form>div>textarea {
     height: 200px;
     resize: none;
+}
+
+@media (max-width: 768px){
+    form button{
+        width: 100%;
+    }
+}
+
+@media (min-height: 1080px){
+    #form>div>textarea {
+        height: 400px;
+    }
 }
