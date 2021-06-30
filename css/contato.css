@@ -10,7 +10,7 @@
 
 }
 
-#form>div>textarea {
+#form div textarea {
     height: 200px;
     resize: none;
 }
@@ -21,8 +21,8 @@
     }
 }
 
-@media (min-height: 1080px){
-    #form>div>textarea {
-        height: 400px;
+@media (min-width: 1080px){
+    #form div textarea {
+        height: 300px;
     }
 }
