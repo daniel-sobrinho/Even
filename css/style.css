@@ -1,3 +1,10 @@
+img{
+    filter: blur(7px);
+}
+.noBlur{
+    filter: blur(0px)
+}
+
 #titulo-fixo {
     text-align: center;
     margin-top: 200px;
